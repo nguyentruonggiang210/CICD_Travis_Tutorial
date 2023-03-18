@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - 13
+services:
+  - docker
+
+# pre-testing install
+install:
+  - echo "nothing to install"
+
+# scripts run before testing
+before_scripts:
+  - echo "no script test" 
+
+scripts:
+  - docker --version
+  - docker build -t simple-node .
+  - docker tag simple-node nguyentruonggiang210/simple-node:latest
+
+after_success:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --pasword-stdin
+  - docker push nguyentruonggiang210/simple-node:simple-node
