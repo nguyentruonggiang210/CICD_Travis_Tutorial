@@ -20,7 +20,9 @@ jobs:
       - image: cimg/node:14.21.3
     steps:
       - checkout
-      - run: systemctl start docker
+      - setup_remote_docker:
+          version: 20.10.14
+          docker_layer_caching: true
       - run: docker login -u "nguyentruonggiang210" -p "$DOCKERHUB_PASSWORD"
       - run: docker build -t simple-node .
       - run: docker tag simple-node nguyentruonggiang210/simple-node:latest
