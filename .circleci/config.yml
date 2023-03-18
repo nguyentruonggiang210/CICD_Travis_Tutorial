@@ -20,6 +20,7 @@ jobs:
       - image: cimg/node:14.21.3
     steps:
       - checkout
+      - run: systemctl start docker
       - run: docker login -u "nguyentruonggiang210" -p "$DOCKERHUB_PASSWORD"
       - run: docker build -t simple-node .
       - run: docker tag simple-node nguyentruonggiang210/simple-node:latest
