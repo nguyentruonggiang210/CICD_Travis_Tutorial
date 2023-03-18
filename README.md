@@ -1,5 +1,8 @@
 [![Continous Integration and Deployment](https://github.com/nguyentruonggiang210/CICD_Travis_Tutorial/actions/workflows/github_pipeline.yaml/badge.svg)](https://github.com/nguyentruonggiang210/CICD_Travis_Tutorial/actions/workflows/github_pipeline.yaml.yaml)
 
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/nguyentruonggiang210/CICD_Travis_Tutorial/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nguyentruonggiang210/CICD_Travis_Tutorial/tree/main)
+
 # Overview
 
 This is a very simple, bare-bones NodeJS project created for you to use with Docker.
