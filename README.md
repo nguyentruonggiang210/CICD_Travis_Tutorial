@@ -1,3 +1,5 @@
+[![Continous Integration and Deployment](https://github.com/nguyentruonggiang210/CICD_Travis_Tutorial/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/nguyentruonggiang210/CICD_Travis_Tutorial/actions/workflows/ci-cd.yaml)
+
 # Overview
 
 This is a very simple, bare-bones NodeJS project created for you to use with Docker.
