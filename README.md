@@ -1,4 +1,4 @@
-[![Continous Integration and Deployment](https://github.com/nguyentruonggiang210/CICD_Travis_Tutorial/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/nguyentruonggiang210/CICD_Travis_Tutorial/actions/workflows/ci-cd.yaml)
+[![Continous Integration and Deployment](https://github.com/nguyentruonggiang210/CICD_Travis_Tutorial/actions/workflows/github_pipeline.yaml/badge.svg)](https://github.com/nguyentruonggiang210/CICD_Travis_Tutorial/actions/workflows/github_pipeline.yaml.yaml)
 
 # Overview
 
