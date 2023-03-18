@@ -25,8 +25,9 @@ jobs:
           docker_layer_caching: true
       - run: docker login -u "nguyentruonggiang210" -p "$DOCKERHUB_PASSWORD"
       - run: docker build -t simple-node .
-      - run: docker tag simple-node nguyentruonggiang210/simple-node:latest
-      
+      - run: docker tag simple-node nguyentruonggiang210/simple-node:latest'
+      - run: docker push nguyentruonggiang210/simple-node:simple-node
+
 workflows: 
   build_deploy:
     jobs:
